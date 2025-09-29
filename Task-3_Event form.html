@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fresher Party Form</title>
+</head>
+<body style="background-image: url('https://static.vecteezy.com/system/resources/previews/000/209/577/original/party-crowd-background-vector.jpg'); background-size: cover; background-attachment: fixed; font-family: Arial, sans-serif; color: white; margin:0;">
+
+  <!-- Brighter overlay container -->
+  <div style="background-color: rgba(0,0,0,0.4); min-height: 100vh; padding: 20px;">
+
+    <center>
+      <!-- Title -->
+      <h1>🎉 Fresher Party Registration 🎉</h1>
+
+      <!-- Banner -->
+      <img src="https://tse1.mm.bing.net/th/id/OIP.xmQmfkMGstR_nAh3-TcH0gHaE9?rs=1&pid=ImgDetMain&o=7&rm=3" 
+           alt="Fresher Party Banner" width="50%" height="200">
+
+      <!-- Event Highlights -->
+      <h2>Event Highlights</h2>
+      <div style="display: inline-block; text-align: left;">
+        <ol>
+          <li>Welcome Dance</li>
+          <li>Games and Fun Activities</li>
+          <li>Talent Hunt</li>
+          <li>DJ Night</li>
+          <li>Dinner & Refreshments</li>
+        </ol>
+      </div>
+
+      <!-- Event Schedule -->
+      <h2>Event Schedule</h2>
+      <table border="1" cellpadding="8" cellspacing="0" bgcolor="white" style="color: black;">
+        <tr style="background-color: gold; font-weight: bold;">
+          <th>Time</th>
+          <th>Activity</th>
+        </tr>
+        <tr>
+          <td>5:00 PM</td>
+          <td>Welcome Ceremony</td>
+        </tr>
+        <tr>
+          <td>6:00 PM</td>
+          <td>Games & Activities</td>
+        </tr>
+        <tr>
+          <td>7:30 PM</td>
+          <td>Talent Hunt</td>
+        </tr>
+        <tr>
+          <td>9:00 PM</td>
+          <td>DJ & Dance</td>
+        </tr>
+        <tr>
+          <td>10:30 PM</td>
+          <td>Dinner</td>
+        </tr>
+      </table>
+
+      <!-- Registration Form -->
+      <h2>Register Now</h2>
+      <form>
+        <fieldset style="background-color: white; color: black;">
+          <legend style="font-weight: bold; font-size: 18px; background-color: gold; padding: 5px; border: 1px solid black;">
+            Personal Information
+          </legend>
+          <table>
+            <tr>
+              <td><label for="name">Full Name:</label></td>
+              <td><input type="text" id="name" name="name" required></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email Address:</label></td>
+              <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+              <td><label for="phone">Phone Number:</label></td>
+              <td><input type="tel" id="phone" name="phone" required></td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <fieldset style="background-color: white; color: black;">
+          <legend style="font-weight: bold; font-size: 18px; background-color: gold; padding: 5px; border: 1px solid black;">
+            Details
+          </legend>
+          <table>
+            <tr>
+              <td><label for="stay">Are you a:</label></td>
+              <td>
+                <select id="stay" name="stay" required>
+                  <option value="">-- Select --</option>
+                  <option value="day">Day Scholar</option>
+                  <option value="hostel">Hostler</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label for="idcard">Upload ID / Aadhaar Card:</label></td>
+              <td><input type="file" id="idcard" name="idcard" accept=".jpg,.jpeg,.png,.pdf" required></td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Submit Registration" style="padding: 10px 20px; font-size: 16px; font-weight: bold; background-color: gold; border: 2px solid black; cursor: pointer;">
+      </form>
+    </center>
+  </div>
+
+</body>
+</html>
